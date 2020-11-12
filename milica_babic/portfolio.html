@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<!--
+	Snapshot by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Портфолио - Милица Бабић</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style type="text/css">
+			.box{
+			/*padding: 30px 50px;
+			margin: 40px 60px;*/
+			cursor: pointer;
+			/*display: inline-block;*/
+			color: #FFF;
+			/*font-size: 2em;*/
+			border-radius: 4px;
+			/*border: 1px solid #bbb;*/
+			transition: all 0.3s linear;
+		}
+			.box:hover {
+    			-webkit-transform: rotate(-7deg);
+    			-moz-transform: rotate(-7deg);
+    			-o-transform:rotate(-7deg);
+    			transform: rotate(-7deg);
+
+    			-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    			-moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    			-o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    			box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    		}
+    		.brain{
+    			margin: : 5px;
+            	background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+        	}
+        	.robot{
+            	background: linear-gradient(to left, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%)
+        	}
+        	.startup{
+            	background: linear-gradient(to left, #7abcff 0%, rgba(0, 128, 128, 1) 100%)
+        	}
+        	.gamepongai{
+            	background: linear-gradient(to left, rgb(157, 245, 69)  0%, rgb(87, 139, 34)  100%)
+        	}
+		</style>
+	</head>
+	<body>
+		<div class="page-wrap">
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html"><span class="icon fa-home"></span></a></li>
+						<li><a href="gallery.html"><span class="icon fa-camera-retro"></span></a></li>
+						<li><a href="portfolio.html" class="active"><span class="icon fa-terminal"></span></a></li>
+						<li><a href="https://milica-babic.medium.com/"><span class="icon fa-file-text-o"></span></a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<section id="main">
+
+					<!-- Header -->
+						<header id="header">
+							<!--<div>Snapshot <span>by TEMPLATED</span></div>-->
+						</header>
+
+					<!-- Section -->
+						<section>
+							<div class="inner">
+								<header>
+									<h1>Моји пројекти</h1>
+								</header>
+								<p>Идеје за прва три пројекта нису моје, већ су из сљедећег курса са платформе Udemy, који свима препоручујем: <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/">линк.</a> Сви пројекти сем четвртог и првог су рађени у језику JavaScript, помоћу библиотеке React. Четврти пројекат је рађен у језику Python.</p>
+							
+								<section class="columns double">
+									<div class="column">
+										<span class="image right special startup box"><a href="https://suncanjenamesecini.github.io/landing_page/"><img src="images/startuppic.PNG" alt="" /></a></span>
+										<h3>Startup landing page</h3>
+										<p>
+											Овај пројекат је рађен само помоћу HTMLa, CSSa и библиотеке Bootstrap.
+										</p>
+									</div>
+									<div class="column">
+										<span class="image right special robot box"><a href="https://suncanjenamesecini.github.io/robofriends/"><img src="images/robotpic.PNG" alt="" /></a></span>
+										<h3>Апликација Robofriends</h3>
+										<p>
+											Овај пројекат је урађен користећи библиотеку React, тачније модул Create React App.
+										</p>
+									</div>
+									<div class="column">
+										<span class="image left special brain box"><a href="https://suncanjenamesecini.github.io/facedetectionnew/"><img src="images/brainpic.PNG" alt="" /></a></span>
+										<h3>Апликација за детекцију лица на сликама</h3>
+										<p>
+											Овај пројекат је урађен користећи библиотеку React, тачније модул Create React App. Главна компонента је поље за детекцију лица са фотографија, чија се адреса унесе у за то предвиђено поље. Апликација онда позива  <a href="https://docs.clarifai.com/api-guide/api-overview">Clarifai API</a>.
+
+											Слика се прикаже испод поља за унос, са плавим правоугаоницима преко ње, лоцираним око лица. Идеја за пројекат је са курса: <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/"> линк</a>. Ја сам измијенила то да апликација прикаже до 30 лица из низа враћених података (не само прво једно), као и то да се некад не приказује правоугаоник на сликама гдје нема лица, залутао са слике из претходног уноса. 
+										</p>
+									</div>
+									<div class="column">
+										<span class="image left special brain box"><a href="https://github.com/suncanjenamesecini/pong-game-AI/blob/main/pongAI.py"><img src="images/pongpic.PNG" alt="" /></a></span>
+										<h3>Игра Понг</h3>
+										<p>
+											Овај пројекат је игра Понг за једног играча, рађена у језику Python, користећи библиотеку PyGame. Постоје два фајла, први је за једног играча (корисника), а други је модел трениран да сам игра користећи алгоритам К-најближих сусједа (импортован из модула scikit-learn).
+										</p>
+									</div>
+									<div class="column">
+										<span class="image right special gamepongai box"><a href="https://suncanjenamesecini.github.io/gameoflife/"><img src="images/golpic.PNG" alt="" /></a></span>
+										<h3>Конвејева игра живота</h3>
+										<p>
+											Овај пројекат је имплементација Конвејеве Игре живота, чија су правила:<a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">линк. </a> Рађена је помоћу библиотеке React (модул Create React App), у језику JavaScript. 
+										</p>
+									</div>
+								</section>
+							</div>
+						</section>
+
+					<!-- Contact -->
+						<section id="contact">
+							<!-- Social -->
+								<div class="social column">
+									<h3>О мени</h3>
+									<p>Тренутно сам студент на модулу Информатика, на Природно-математичком факултету у Бањој Луци. Сликарством се бавим из хобија, кад ми остане времена од других обавеза. Волим да читам и истражујем, да сваки дан научим нешто ново. Такође волим да се бавим спортом, посебно борилачким вјештинама.</p>
+									
+									<h3>Пратите ме</h3>
+									<ul class="icons">
+										<li><a href="https://github.com/suncanjenamesecini" class="icon fa-github"><span class="label">Github</span></a></li>
+										
+										<li><a href="https://www.instagram.com/milicadrawings/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</div>
+
+							<!-- Form -->
+								<div class="column">
+									<h3>Контакт</h3>
+									<form action="#" method="post">
+										<div class="field half first">
+											<label for="name">Име</label>
+											<input name="name" id="name" type="text" placeholder="Име">
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input name="email" id="email" type="email" placeholder="Email">
+										</div>
+										<div class="field">
+											<label for="message">Порука</label>
+											<textarea name="message" id="message" rows="6" placeholder="Порука"></textarea>
+										</div>
+										<ul class="actions">
+											<li><input value="Пошаљи поруку" class="button" type="submit"></li>
+										</ul>
+									</form>
+								</div>
+
+						</section>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<div class="copyright">
+								&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. 
+							</div>
+						</footer>
+				</section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
